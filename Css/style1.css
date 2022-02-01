@@ -108,9 +108,9 @@ animation: fadeOut 0.5s ease-in-out forwards;
 }
 .main{
     
-    max-width: 500px;
-    margin: auto;
-transition: all 0.5s ease-in-out;
+    max-width: 1200px;
+   margin: auto;
+ transition: all 0.5s ease-in-out;
 position: relative;
 }
 
@@ -127,6 +127,7 @@ width: 100%;
 .row{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .align-items-center{
@@ -262,7 +263,7 @@ padding: 20px 15px;
 
 .header.active .container{
 
-max-width: 600px;
+max-width: 1200px;
 margin: auto;
 }
 
@@ -286,7 +287,7 @@ margin: auto;
 
 .header .nav-toggler span{
     height: 2px;
-    width: 24px;
+    width: 20px;
     background-color: var(--blue-dark);
     position: relative;
     transition: background-color 0.3s ease;
@@ -353,7 +354,7 @@ margin: auto;
 background-color: var(--white-alpha-25);
 border: 1px solid var(--white-alpha-40);
 backdrop-filter: var(--backdrop-filter-blur);
-padding: 50px 0;
+padding: 5px;
 border-radius: 30px;
 display: flex;
 align-items: center;
@@ -559,7 +560,7 @@ width: 100%;
 
 
 .about-text .tab-content{
-    padding: 40px 0;
+    padding: 20px 0;
     display: none;
 }
 
@@ -574,7 +575,7 @@ padding: 10px 0 0 40px;
 .about-text .timeline-item::before{
     content: '';
     position: absolute;
-    height: 11px;
+    height: 11px; 
     width: 11px;
     background-color: var(--blue-dark);
     left: 0;
@@ -604,7 +605,7 @@ font-weight: 200;
 }
 
 .about-text .btn{
-    margin: 0 15px 15px 0;
+    margin:  10px 10px 0;
 }
 
 /* portafolio section */
@@ -615,7 +616,7 @@ font-weight: 200;
 
 .portafolio-item{
     width: 500px; /*500 estaba*/
-    margin: 0 78px 40px;
+    margin: 0 300px 30px;
 }
 
 .porta-item-thumbnail{
