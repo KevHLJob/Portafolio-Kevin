@@ -808,3 +808,15 @@ transition: all 0.3 ease;
     color: var(--white);
     background-color: var(--main--color);
 }
+
+/*Estilo de link de proyectos*/
+.view-project{
+background-color: #135058;
+border-radius: 10px;
+padding: 5px;
+}
+
+.view-project:hover{
+    color: black;
+    background-color: var(--white-alpha-25);
+}
