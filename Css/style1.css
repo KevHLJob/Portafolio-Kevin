@@ -820,3 +820,54 @@ padding: 5px;
     color: black;
     background-color: var(--white-alpha-25);
 }
+
+
+/* Media querys*/
+
+@media screen and (min-width: 700px) and(max-width: 1000px) {
+  
+    
+}
+
+@media screen and (min-width: 400px)and(max-width: 700px){
+
+    
+}
+
+@media screen and (min-width: 300px){
+    .container{
+    margin: 0.5rem;
+    padding: 20px 2px;
+    }
+    .portafolio-item{
+        margin: 1rem;
+    }
+    .contact-form{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .contact-info h3{
+        height: 40px;
+        text-align: center;
+    }
+    .contact-info p{
+        text-align: justify;
+        font-size: 15px;
+        
+    }
+    .section-title h2{
+        font-size: 30px;
+    }
+    
+    .about-text{
+        
+        margin-right: 100%; 
+        padding: 20px 10px;
+    }
+    .about-text p{
+        margin-left: 20px;
+        text-align: justify;
+    }
+}
